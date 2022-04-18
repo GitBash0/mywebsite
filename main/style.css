@@ -1,0 +1,34 @@
+.background-div{
+    height: 1700px;
+    background-color: rgb(44, 54, 51);
+    background-image: url(/main/images/124016-cool-blue-metallic-background-texture.webp);
+    background-size: cover;
+}
+.main-div{
+height: 1600px;
+background-color: rgb(18, 84, 122);
+top: 50px;
+border-start-end-radius: 20px;
+border-start-start-radius: 20px;
+border-bottom-left-radius: 20px;
+border-bottom-right-radius: 20px;
+}
+.profile-pic{
+  left: 40px; 
+top: 40px;
+}
+.rounded-circle{
+
+    width: 202px;
+    height: 214px; 
+}
+.about-text{
+    top: 40px;
+    right: 20px;
+
+}
+.contact-form{
+top: 650px;
+left: 100px;
+
+}
