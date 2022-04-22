@@ -1,21 +1,24 @@
 .background-div{
-    height: 1700px;
-    background-color: rgb(44, 54, 51);
+    
     background-image: url(/main/images/124016-cool-blue-metallic-background-texture.webp);
     background-size: cover;
+    position: relative;
+    z-index: 1;
 }
 .main-div{
-height: 1600px;
+height: 16;
 background-color: rgb(19, 94, 138);
-top: 50px;
 border-start-end-radius: 20px;
 border-start-start-radius: 20px;
 border-bottom-left-radius: 20px;
 border-bottom-right-radius: 20px;
+margin-top: 20px;
+margin-bottom: 20px;
+
+z-index: 2;
 }
 .profile-pic{
-  left: 40px; 
-top: 40px;
+  margin-top: 20px;
 }
 .rounded-circle{
 
@@ -23,13 +26,11 @@ top: 40px;
     height: 214px; 
 }
 .about-text{
-    top: 40px;
-    right: 20px;
+    margin-top: 20px;
 
 }
 .contact-form{
-top: 1070px;
-left: 0px;
+margin-top: 40px;
 
 }
 .form-control{
