@@ -6,7 +6,6 @@
     z-index: 1;
 }
 .main-div{
-height: 16;
 background-color: rgb(19, 94, 138);
 border-start-end-radius: 20px;
 border-start-start-radius: 20px;
@@ -31,9 +30,28 @@ z-index: 2;
 }
 .contact-form{
 margin-top: 40px;
+margin-bottom: 10px;
+
+
+
+
+
 
 }
 .form-control{
     background-color:rgb(11, 43, 61) ;
     border-width: 4px;
+}
+.btn-color{
+    color:rgb(11, 43, 61) ;
+    border-color:rgb(11, 43, 61) ;
+    border-width: 4px;
+    font-weight: bolder;
+    text-transform: uppercase;
+    animation-duration: 2s;
+    transition: 0.5s;
+}
+.intro-main{
+    position: relative;
+    top: 4px;
 }
