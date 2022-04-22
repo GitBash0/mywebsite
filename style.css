@@ -1,6 +1,6 @@
 .background-div{
     
-    background-image: url(/main/images/124016-cool-blue-metallic-background-texture.webp);
+    background-image: url('./images/124016-cool-blue-metallic-background-texture.webp');
     background-size: cover;
     position: relative;
     z-index: 1;
